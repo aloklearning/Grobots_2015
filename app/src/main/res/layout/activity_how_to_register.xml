@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#546E7A"
+    tools:context="myapp.hp.com.grobots.HowToRegister">
+
+    <TextView
+        android:id="@+id/aboutg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFEBEE"
+        android:background="#263238"
+        android:text="HOW TO REGISTER" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView7"
+        android:layout_below="@+id/aboutg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Internet Connection Is Required"
+                android:textStyle="bold|normal"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:background="#546E7A"
+                android:id="@+id/textView4"
+                android:layout_below="@+id/aboutg"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFEBEE"
+                android:paddingLeft="30dp"
+                android:paddingRight="30dp"
+                android:text="\n1)After you fill your data and click on REGISTER then it'll ask you to choose your email client.
+                \n2)Select GMAIL, you will be directed to your gmail app account with all your feeded data inside it.
+                \n\n3)Do not make any changes just simply click on the send button.
+                \n\n4)As your email is sent your partial regsitration is complete.However without payment of the registration fees you'd not be liable to compete.
+                \n\n5)For more details about the registration fees, contacts have been given to you event wise."
+                android:id="@+id/textView5"
+                android:layout_below="@+id/textView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginTop="0dp" />
+        </LinearLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

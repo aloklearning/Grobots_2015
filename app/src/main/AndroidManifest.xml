@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="myapp.hp.com.grobots" >
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gicon"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".Welcome"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Grobots"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".AboutActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".CommitteeActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".RegisterActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ScheduleActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".QueryActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".EventsActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Skynomous"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Aquagrine"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Sprint"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Robocalypse"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".TechDarshini"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ErrorActivity"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Uvaan"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SkyAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SkyContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".AquaAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".AquaContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".TechAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".TechContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SprintAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SprintContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".WarAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".WarContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".UvaanAbout"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".UvaanContact"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".HowToRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SkyRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".AquaRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".SprintRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".WarRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".UvaanRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".TechdRegister"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Results"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ErrorActivity1"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ErrorActvity2"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ErrorActivity3"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".ErrorActivity4"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Notifications"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Day1"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Day2"
+            android:label="Grobots" >
+        </activity>
+        <activity
+            android:name=".Day3"
+            android:label="Grobots" >
+        </activity>
+    </application>
+
+</manifest>

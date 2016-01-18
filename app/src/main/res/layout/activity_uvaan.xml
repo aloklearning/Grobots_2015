@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/uvaan"
+    tools:context="myapp.hp.com.grobots.Uvaan">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#ef5350"
+        android:text="UVAAN" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:layout_below="@+id/eventdetails">
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="normal|bold"
+            android:gravity="center_horizontal"
+            android:text="About"
+            android:id="@+id/UButton1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="179dp" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:id="@+id/UButton3"
+            android:layout_below="@+id/UButton1"
+            android:layout_marginTop="15dp"
+            android:textSize="22dp"
+            android:textStyle="normal|bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+    </RelativeLayout>
+
+
+
+
+</RelativeLayout>

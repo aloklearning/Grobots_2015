@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/robowar"
+    tools:context="myapp.hp.com.grobots.WarAbout">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#ef5350"
+        android:text="ABOUT" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eventdetails"
+        android:paddingTop="88dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#26a69a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Here we do not keep pets but tamed robots. Robots with self consciousness and so aggressive that their wild actions can be devastating. We humans, can be successful in finding a way for them to beat their inner heat. What can be better than a ‘ FACE OFF’. Only one simple rule applies here, the stronger one wins."
+            android:id="@+id/textView"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

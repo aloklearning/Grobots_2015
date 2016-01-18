@@ -1,0 +1,81 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/skynomous"
+    tools:context="myapp.hp.com.grobots.SkyAbout">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#ef5350"
+        android:text="ABOUT" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView9"
+        android:layout_below="@+id/eventdetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#26a69a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="After the kedarnath catastrophe,survivors are stuck and are facing grave conditions. It has become almost impossible for the government to reach them all via roadways. To tackle the situation, engineer’s came up with a ropeway , coz building a bridge was not possible. To access the inaccessible areas of kedarnath a coordination was made between land vehicles and rope crawling buses, to supply the survivors the necessities to survive. Their survival lies in the hands of perfect coordination of the two types of vehicles."
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TASK"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:background="#26a69a"
+                android:id="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="->	The Team should have two robots , Among the two robots one should be manual and other should be autonomous
+\n-> One robot should be such that it should move on ropes and other will be a line follower robot.
+\n-> When the match starts ,the manual robot should move along the rope to pick the box kept at separate positions and put the box on the autonomous robot.
+\n-> As soon as the block is placed ,the autonomous robot should move."
+                android:gravity="center"
+                android:textSize="20dp"
+                android:background="#26a69a"
+                android:id="@+id/textView2"
+                android:layout_marginTop="0dp"
+                android:layout_below="@+id/textView1" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

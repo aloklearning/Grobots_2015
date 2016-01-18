@@ -1,0 +1,326 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" 
+    tools:context="myapp.hp.com.grobots.AquaRegister">
+
+    <TextView
+        android:id="@+id/aboutg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFEBEE"
+        android:background="#263238"
+        android:text="THE MARINES" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:text="Register"
+        android:textStyle="normal|bold"
+        android:id="@+id/ARButton1"
+        android:layout_marginBottom="12dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView8"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/aboutg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/ARButton1">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Total Members"
+                android:textStyle="normal|bold"
+                android:textSize="22dp"
+                android:gravity="center"
+                android:id="@+id/ARtextView1"
+                android:textColor="#FFEBEE"
+                android:background="#01579B"
+                android:layout_centerHorizontal="true" />
+
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/ARSpinner"
+                android:background="#00897B"
+                android:scrollbarSize="22dp"
+                android:layout_below="@+id/ARtextView1"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="0dp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name Of Leader"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARSpinner"
+                android:id="@+id/ARtextView2"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView2"
+                android:id="@+id/AREditText1"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name Of Team"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText1"
+                android:id="@+id/ARtextView3"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView3"
+                android:id="@+id/AREditText2"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Contact Number"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText2"
+                android:id="@+id/ARtextView4"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:inputType="number"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView4"
+                android:id="@+id/AREditText3"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="College Name"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText3"
+                android:id="@+id/ARtextView5"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView5"
+                android:id="@+id/AREditText4"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Name Of All Members"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText4"
+                android:id="@+id/ARtextView6"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(Do the numbering against each names)"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/ARtextView6"
+                android:id="@+id/ARtextView7"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView7"
+                android:id="@+id/AREditText5"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Contact Of All Members"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText5"
+                android:id="@+id/ARtextView8"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(Do the numbering against each numbers serially)"          android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/ARtextView8"
+                android:id="@+id/ARtextView9"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView9"
+                android:id="@+id/AREditText6"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Branch Of All Members"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/AREditText6"
+                android:id="@+id/ARtextView10"
+                android:layout_marginTop="22dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="(Serial wise branches with YEAR)"
+                android:background="#01579B"
+                android:textColor="#FFEBEE"
+                android:gravity="center"
+                android:textSize="18dp"
+                android:textStyle="normal"
+                android:layout_below="@+id/ARtextView10"
+                android:id="@+id/ARtextView11"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:gravity="center"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/ARtextView11"
+                android:id="@+id/AREditText7"
+                android:layout_marginTop="0dp"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

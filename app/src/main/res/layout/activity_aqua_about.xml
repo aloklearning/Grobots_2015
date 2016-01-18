@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aquagrine"
+    tools:context="myapp.hp.com.grobots.AquaAbout">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#ef5350"
+        android:text="ABOUT" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView9"
+        android:layout_below="@+id/eventdetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:background="#26a69a"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="In this world of enormous trade and commerce , no one wants to lag behind. The ship-ports are thought to be the busiest when it comes to international trade . There has been stiff competition between various ports of India to export goods from there port. The one with highly improved machinery and advanced technologies will have an edge over others."
+                android:id="@+id/textView"
+                android:textSize="20dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="TASK"
+                android:textSize="20dp"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:background="#26a69a"
+                android:id="@+id/textView1"
+                android:layout_marginTop="20dp"
+                android:layout_below="@+id/textView" />
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="To design two manual robot (wired or wireless), in which one can travel through water and other (LAND ROBOT)  will travel through the specified path and pick a ball and drop it at a specified position and then  it is to be collected by other robot (AQUA ROBOT) and finally drop it in the marked area."
+                android:gravity="center"
+                android:background="#26a69a"
+                android:id="@+id/textView2"
+                android:textSize="20dp"
+                android:layout_marginTop="0dp"
+                android:layout_below="@+id/textView1" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

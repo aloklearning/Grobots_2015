@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.EventsActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#FFEBEE"
+        android:gravity="center"
+        android:background="#3A3553"
+        android:text="EVENTS"
+        android:id="@+id/textView2" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView5"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Skynomous"
+                android:textSize="25dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/EventButton1"
+                android:layout_marginTop="81dp"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="The Marines"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:id="@+id/EventButton2"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/EventButton1"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="The DP-A3 Sprint"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:id="@+id/EventButton3"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/EventButton2"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Robocalypse"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:id="@+id/EventButton4"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/EventButton3"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="UVAAN"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:id="@+id/EventButton5"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/EventButton4"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Tech-Darshini"
+                android:textStyle="normal|bold"
+                android:textSize="25dp"
+                android:id="@+id/EventButton6"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/EventButton5"
+                android:layout_centerHorizontal="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

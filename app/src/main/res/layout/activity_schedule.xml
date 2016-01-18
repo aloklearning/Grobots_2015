@@ -1,0 +1,74 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.ScheduleActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:textColor="#FFEBEE"
+        android:background="#3A3553"
+        android:gravity="center"
+        android:text="SCHEDULE"
+        android:id="@+id/textView3" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView6"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Day 1"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/day1"
+                android:layout_centerVertical="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="140dp" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Day 2"
+                android:id="@+id/day2"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/day1"
+                android:layout_marginTop="18dp"/>
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Day 3"
+                android:id="@+id/day3"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/day2"
+                android:layout_marginTop="18dp"/>
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

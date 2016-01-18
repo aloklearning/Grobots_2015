@@ -1,0 +1,181 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.CommitteeActivity">
+
+    <TextView
+        android:id="@+id/aboutg"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#3a3553"
+        android:gravity="center_horizontal"
+        android:text="ORGANISING COMMITTEE" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView2"
+        android:layout_below="@+id/aboutg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:paddingRight="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp">
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:text=" Joint Faculty Convenor"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:id="@+id/txt1"
+                android:layout_alignParentTop="true"
+                android:layout_alignLeft="@+id/txt2"
+                android:layout_alignStart="@+id/txt2" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Mr.Uddaish Porov \n[EC Dept.]"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt2"
+                android:layout_below="@+id/txt1"/>
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center_horizontal"
+                android:text="Faculty Coordinator"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt3"
+                android:layout_below="@+id/txt2"
+                android:layout_marginTop="18dp" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Mr.Nitesh Jaiswal \n[EI Dept.]"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt4"
+                android:layout_below="@+id/txt3"/>
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center_horizontal"
+                android:text="President"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt5"
+                android:layout_below="@+id/txt4"
+                android:layout_marginTop="18dp" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Ms.Varsha Sharma \n[EN 4th Yr]"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt6"
+                android:layout_below="@+id/txt5"/>
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:text="Coordinators"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt7"
+                android:layout_below="@+id/txt6"
+                android:layout_marginTop="18dp" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Aditya Narain[ME 3rd Yr] \nAdarsh Tripathi[EE 3rd Yr] \nDhruv Srivastav[EC 3rd Yr] \nHarshit Gupta[EI 3rd Yr] \nMd. Mudassir Ansari[CE 3rd Yr] \nPankaj Kumar Singh[ME 3rd Yr] \nRohit Nandan Mishra[EI 3rd Yr] \nAnanya Garg[EE 3rd Yr] \nShikha Somvanshi[EN 3rd Yr] \nShivam Tiwari[EN 3rd Yr] \nVarsha Dubey[EC 3rd Yr] \nVikrant Kumar[EE 3rd Yr]"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt8"
+                android:layout_below="@+id/txt7"/>
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:text="Android App Developer"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt9"
+                android:layout_below="@+id/txt8"
+                android:layout_marginTop="18dp" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Alok Kumar[IT 3rd Yr] \nCoordinator"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt10"
+                android:layout_below="@+id/txt9"/>
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:gravity="center"
+                android:text="Asst. Coordinators"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt11"
+                android:layout_below="@+id/txt10"
+                android:layout_marginTop="18dp" />
+
+            <TextView android:layout_width="350dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal"
+                android:gravity="center"
+                android:text="Ankit Kumar[EC 2nd Yr] \nPrachi Sinha[EC 2nd Yr] \nMd.Shadab[EC 2nd Yr] \nShivani[EC 2nd Yr] \nSaumya Rastogi[EC 2nd Yr] \nPrashant Tiwari[EN 2nd Yr] \nRitesh Dubey[EN 2nd Yr] \nSushil Prajapati[EN 2nd Yr] \nBhawana Pandey[EN 2nd Yr] \nVikas Pandey[EN 2nd Yr] \nNeha Kushwaha[EN 2nd Yr] \nPalak Prajapati[EN 2nd Yr] \nShipra Srivastava[EN 2nd Yr] \nSwati Sinha[EI 2nd Yr] \nPrachi Singh[EE 2nd Yr] \nHimanshu Singh Rana[ME 2nd Yr] \nAmit Pandey[ME 2nd Yr] \nPoornanand Verma[ME 2nd Yr] \nEshan Jaiswal[EC 2nd Yr] \nShubham Mishra[EC 2nd Yr] \nAnurag Srivastava[EE 2nd Yr] \nNihal Gupta[IT 2nd Yr] \nSagar Verma[IT 2nd Yr] \nAditya Singh[IT 2nd Yr] \nAayush Chitravanshi[IT 2nd Yr] \nRakesh Kumar[EE 2nd Yr] \nShubham Srivastava[IT 2nd Yr]"
+                android:textSize="20dp"
+                android:background="#ff7043"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt12"
+                android:layout_below="@+id/txt11"/>
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

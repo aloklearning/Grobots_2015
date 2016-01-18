@@ -1,0 +1,55 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aquagrine"
+    tools:context="myapp.hp.com.grobots.Aquagrine">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#3a3553"
+        android:text="THE MARINES" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eventdetails"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:textSize="22dp"
+            android:textStyle="normal|bold"
+            android:gravity="center_horizontal"
+            android:text="About"
+            android:id="@+id/AButton1"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="179dp" />
+
+        <Button
+            android:layout_width="340dp"
+            android:layout_height="wrap_content"
+            android:text="Contacts"
+            android:id="@+id/AButton3"
+            android:layout_below="@+id/AButton1"
+            android:layout_marginTop="15dp"
+            android:textSize="22dp"
+            android:textStyle="normal|bold"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"/>
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

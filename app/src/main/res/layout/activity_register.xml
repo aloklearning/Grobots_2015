@@ -1,0 +1,113 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/register"
+    tools:context="myapp.hp.com.grobots.RegisterActivity">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#3a3553"
+        android:text="REGISTER" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView4"
+        android:layout_below="@+id/eventdetails"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp">
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="How To Register"
+                android:textSize="22dp"
+                android:id="@+id/RegisterButton1"
+                android:textStyle="normal|bold"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="7dp"/>
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:textStyle="normal|bold"
+                android:textSize="22dp"
+                android:text="Skynomous"
+                android:id="@+id/RegisterButton2"
+                android:layout_below="@+id/RegisterButton1"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="The Marines"
+                android:id="@+id/RegisterButton3"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:layout_below="@+id/RegisterButton2"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="The DP-A3(Cube) Sprint"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/RegisterButton4"
+                android:layout_below="@+id/RegisterButton3"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Robocalypse"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/RegisterButton5"
+                android:layout_below="@+id/RegisterButton4"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="UVAAN"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/RegisterButton6"
+                android:layout_below="@+id/RegisterButton5"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+            <Button
+                android:layout_width="340dp"
+                android:layout_height="wrap_content"
+                android:text="Tech-Darshini"
+                android:textSize="22dp"
+                android:textStyle="normal|bold"
+                android:id="@+id/RegisterButton7"
+                android:layout_below="@+id/RegisterButton6"
+                android:layout_marginTop="18dp"
+                android:layout_centerHorizontal="true" />
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

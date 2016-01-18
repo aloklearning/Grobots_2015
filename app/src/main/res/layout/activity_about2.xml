@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.AboutActivity">
+
+    <TextView
+        android:id="@+id/aboutg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#ffebee"
+        android:background="#3a3553"
+        android:text="GROBOTS" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView3"
+        android:layout_below="@+id/aboutg"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:paddingBottom="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp">
+
+            <TextView
+                android:layout_width="350dp"
+                android:layout_height="match_parent"
+                android:background="#ff7043"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="Grobots is the Robotics club of Shri Ramswaroop Memorial College of Engineering and Management, Lucknow. Students community of Grobots is responsible for holding national level Robotics Event on tech-fest Gantavya.As in GROBOTS is the technical society of the college where a practical working atmosphere gives students to realize their perspectives.
+                \n\nIt was first started 7 years back by SASHWAT KAPIL with his colleagues, made some robots of their own, participated in different events and won some too. From there the journey started and it took the long road ahead and hence GROBOTS itself defines GROwing+BOTS
+                \n\nFrom this year i.e., 2K15, GROBOTS introduced the CYBER DEPT. too, which now provides the platform to the computer geeks, an environment to work and to develop a masterpiece here inside the college. The android application and website development work'd be taken care of by the CYBER DEPT. only."
+                android:id="@+id/textView"
+                android:textSize="20dp" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

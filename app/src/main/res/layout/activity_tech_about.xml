@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.TechAbout">
+
+    <TextView
+        android:id="@+id/eventdetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="38dp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:textColor="#ffebee"
+        android:background="#ef5350"
+        android:text="ABOUT" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/eventdetails"
+        android:paddingTop="88dp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp">
+
+
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:background="#26a69a"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Tech-Darshini is the name of the Exhibition to be held. In this the participant can bring any projects, i.e., It can be related to robotics or any projects of Engineering department.\nProjects can be both Working nd Non-Working. "
+            android:id="@+id/textView"
+            android:textSize="22dp" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

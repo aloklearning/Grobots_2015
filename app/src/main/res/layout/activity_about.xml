@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logo"
+    tools:context="myapp.hp.com.grobots.About">
+
+    <TextView
+        android:id="@+id/aboutg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:textSize="40dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FFEBEE"
+        android:background="#3A3553"
+        android:text="GROBOTS" />
+
+    <Button
+        android:id="@+id/committe"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/aboutevent"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:textStyle="normal|bold"
+        android:textSize="22dp"
+        android:textColor="@android:color/background_dark"
+        android:text="Organising Committee" />
+
+    <Button
+        android:id="@+id/aboutevent"
+        android:layout_width="290dp"
+        android:gravity="center_horizontal"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/background_dark"
+        android:textStyle="normal|bold"
+        android:textSize="22dp"
+        android:text="About"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/committe"
+        android:layout_alignStart="@+id/committe" />
+
+</RelativeLayout>
